@@ -146,7 +146,7 @@ border: 5px solid red /*width, style, color*/
   border-left-color 
   border-style
               none /* Default value. Specifies no border */
-              
+              hidden /*The same as "none", except in border conflict resolution for table elements*/
   border-top-style border-right-style border-bottom-style border-left-style
   border-width border-top-width border-right-width border-bottom-width
   border-left-width;
