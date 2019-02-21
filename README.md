@@ -72,35 +72,82 @@ tag#id /*Tag with id ‘id’*/
 :visited /*Adds style to visited link*/
 ```
 
+# Size and colors
+
+## Relative sizes
+
+```css
+em /* */
+rem /* */
+ex /* */
+ch /* */
+vw
+vh
+vmin
+vmax
+
+```
+
+## Absolute sizes
+
+```css
+cm /*centimetros*/
+mm /*milimetros */
+in /*inches*/
+px /*pixels */
+pt /*pixels */
+pc /*pixels */
+```
+
+## Colors
+
+```css
+#ff00ff /*hex*/
+rgb(255,0,255)  /*red green blue */
+
+```
+
 # Box Model
 
 ![CSS Box Model](cssboxmodel.png)
 
-# Boxes
+# Box 
 
 ```css
-margin
-    margin-top
-    margin-right
-    margin-bottom
-    margin-left
+margin: /*size*/ 
+  margin-top
+  margin-bottom 
+              auto
+              length
+              %
+  margin-right
+  margin-left 
+              auto
+              height
+              % 
+  margin-bottom 
+
 
 padding
-    padding-top
-    padding-right
-    padding-bottom
-    padding-left
-
-border
-    border-top
-    border-right
-    border-bottom
-    border-left
-
-border-color
-    border-top-color
-    border-right-color
-    border-bottom-color
-    border-left-color
-
+  padding-top 
+  padding-right 
+  padding-bottom 
+  padding-left 
+  
+border: 5px solid red /*width, style, color*/
+  border-top
+  border-right 
+  border-bottom 
+  border-left 
+  border-color 
+  border-top-color
+  border-right-color 
+  border-bottom-color 
+  border-left-color 
+  border-style
+              none /* Default value. Specifies no border */
+              
+  border-top-style border-right-style border-bottom-style border-left-style
+  border-width border-top-width border-right-width border-bottom-width
+  border-left-width;
 ```
