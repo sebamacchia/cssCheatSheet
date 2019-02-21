@@ -147,6 +147,11 @@ border: 5px solid red /*width, style, color*/
   border-style
               none /* Default value. Specifies no border */
               hidden /*The same as "none", except in border conflict resolution for table elements*/
+              dotted
+              dashed
+              solid
+              double
+              groove /*Specifies a 3D grooved border. The effect depends on the border-color value*/
   border-top-style border-right-style border-bottom-style border-left-style
   border-width border-top-width border-right-width border-bottom-width
   border-left-width;
