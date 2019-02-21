@@ -156,3 +156,51 @@ border: 5px solid red /*width, style, color*/
   border-width border-top-width border-right-width border-bottom-width
   border-left-width;
 ```
+
+# Text
+```css
+font-family: /*Specifies the font family*/
+font: 
+          normal
+          bold
+          bolder
+          lighter
+          int 
+font-size:/*Specifies the font size*/
+font-style
+          normal
+          italic
+          oblique
+          inherit
+font-variant
+          normal
+          small-caps
+          inherit
+color
+
+line-height
+            normal
+            int
+            %
+            inherit
+text-align
+            left
+            right
+            center
+            justify
+            inherit
+text-decoration
+            none
+            underline
+            overline
+            line-through
+            blink
+            inherit
+text-indent
+            int
+            %
+            inherit
+
+```
+
+
