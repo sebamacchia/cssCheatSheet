@@ -6,6 +6,11 @@ The most complete and compact CSS cheat sheet in the entire world!
 
 1. [Adding CSS methods](#Adding-CSS-methods)
 2. [Syntax](#Syntax)
+3. [Selectors](#Selectors)
+4. [Pseudo-selectors](#Pseudo-selectors)
+5. [Size and colors](#Size-and-colors)
+6. [Box Model](#Box-Model)
+7. [Box](#Box)
 
 ## Adding CSS methods
 
@@ -46,7 +51,7 @@ selector {
 }
 ```
 
-# Selectors
+## Selectors
 
 ```css
 *  /* all elements */
@@ -62,7 +67,7 @@ tag.class /*All tags with class ‘class’*/
 tag#id /*Tag with id ‘id’*/
 ```
 
-# Pseudo-selectors
+## Pseudo-selectors
 
 ```css
 :active /*Adds style to active element*/
@@ -77,9 +82,9 @@ tag#id /*Tag with id ‘id’*/
 :visited /*Adds style to visited link*/
 ```
 
-# Size and colors
+## Size and colors
 
-## Relative sizes
+- Relative sizes
 
 ```css
 em /* */
@@ -93,7 +98,7 @@ vmax
 
 ```
 
-## Absolute sizes
+- Absolute sizes
 
 ```css
 cm /*centimetros*/
@@ -104,7 +109,7 @@ pt /*pixels */
 pc /*pixels */
 ```
 
-## Colors
+- Colors
 
 ```css
 #ff00ff /*hex*/
@@ -112,11 +117,11 @@ rgb(255,0,255)  /*red green blue */
 
 ```
 
-# Box Model
+## Box Model
 
 ![CSS Box Model](cssboxmodel.png)
 
-# Box 
+## Box 
 
 ```css
 margin: /*size*/ 
@@ -173,7 +178,7 @@ border: 5px solid red /*width, style, color*/
   border-left-width;
 ```
 
-# Text
+## Text
 ```css
 font-family: /*Specifies the font family*/
 font: 
@@ -247,7 +252,7 @@ word-spacing
 
 ```
 
-# Positioning
+## Positioning
 ```css
 position
             absolute
@@ -277,7 +282,7 @@ visible | hidden | collapse | inherit
 z-index
 auto | int | inherit
 ```
-# Dimensions
+## Dimensions
 ```css
 height
 auto | int | % | inherit
@@ -297,7 +302,7 @@ width
 
 auto | int | % | inherit
 ```
-# BACKGROUNDS
+## BACKGROUNDS
 ```css
 background
                 content-box radial-gradient(crimson, skyblue)
@@ -318,13 +323,10 @@ background-image /*url*/
 
 ```
 
-# UI
+## UI
 ```css
 background
-Format:
-background (color) (image)
-
-  (repeat) (position)
+          background (color) (image) (repeat) (position)
 cursor
         help
         wait
