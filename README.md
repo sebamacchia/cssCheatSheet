@@ -2,9 +2,14 @@
 
 The most complete and compact CSS cheat sheet in the entire world!
 
-# Adding CSS methods
+# Table of Contents
 
-## Inline style
+1. [Adding CSS methods](#Adding-CSS-methods)
+2. [Syntax](#Syntax)
+
+## Adding CSS methods
+
+- Inline style
 
 direct in the html (NO!)
 
@@ -12,7 +17,7 @@ direct in the html (NO!)
 <tag style="property: value;"></tag>
 ```
 
-## Embedded Style
+- Embedded Style
 
 ```html
 <head>
@@ -24,7 +29,7 @@ direct in the html (NO!)
 </head>
 ```
 
-## External Style Sheet
+- External Style Sheet
 
 ```html
 <head>
@@ -32,7 +37,7 @@ direct in the html (NO!)
 </head>
 ```
 
-# Syntax
+## Syntax
 
 ```css
 selector {
@@ -240,6 +245,96 @@ word-spacing
             length
             inherit
 
+```
+
+# Positioning
+```css
+position
+            absolute
+            fixed
+            relative
+            none 
+            static /*is not positioned in any special way*/
+            inherit
+float       left
+            rigth
+            none
+            inherit
+top, right, bottom, left
+/* Sets the offset from the edge */
+clear
+            left
+            right
+            both
+            none
+            inherit
+display
+/* Specifies element placing in the document flow */
+overflow	
+visible | hidden | scroll | auto | inherit
+visibility
+visible | hidden | collapse | inherit
+z-index
+auto | int | inherit
+```
+# Dimensions
+```css
+height
+auto | int | % | inherit
+
+max-height
+none | int | % | inherit
+max-width
+
+none | int | % | inherit
+min-height
+
+int | % | inherit
+min-width
+
+int | % | inherit
+width
+
+auto | int | % | inherit
+```
+# BACKGROUNDS
+```css
+background
+                content-box radial-gradient(crimson, skyblue)
+background-color
+                color
+                transparent
+background-image
+background-repeat
+                  repeat
+                  repeat-x
+                  repeat-y
+                  no-repeat
+background-attachment
+background-position
+background-size
+background-clip
+background-image /*url*/
+
+```
+
+# UI
+```css
+background
+Format:
+background (color) (image)
+
+  (repeat) (position)
+cursor
+        help
+        wait
+        crosshair
+        not-allowed
+        zoom-in
+        grab
+
+quotes
+Set type of quotation marks
 ```
 
 
