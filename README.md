@@ -187,7 +187,7 @@ font-variant
           normal
           small-caps
           inherit
-color
+color /* Sets the color of text */
 
 line-height
             normal
@@ -210,6 +210,34 @@ text-decoration
 text-indent
             int
             %
+            inherit
+text-transform
+            none
+            capitalize
+            uppercase
+            lowercase
+            inherit
+vertical-align
+            int
+            %
+            baseline
+            sub
+            supertop
+            text-top
+            middle
+            bottom
+            text-bottom
+            inherit
+white-space
+            normal
+            nowrap
+            pre
+            pre-line
+            pre-wrap
+            inherit
+word-spacing
+            normal
+            length
             inherit
 
 ```
