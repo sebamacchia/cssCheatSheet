@@ -87,14 +87,15 @@ tag#id /*Tag with id ‘id’*/
 - Relative sizes
 
 ```css
-em /* */
-rem /* */
+em /* Relative to the font-size of the element (2em means 2 times the size of the current font) */
+rem /* Relative to font-size of the root element */
 ex /* */
 ch /* */
 vw
 vh
 vmin
 vmax
+% /* Relative to the parent element */
 
 ```
 
