@@ -11,7 +11,9 @@ The most complete and compact CSS cheat sheet in the entire world!
 5. [Size and colors](#Size-and-colors)
 6. [Box Model](#Box-Model)
 7. [Box](#Box)
-7. [Text](#Text)
+8. [Text](#Text)
+9. [Positioning](#Positioning)
+10. [Dimensions])(#Dimensions)
 
 ## Adding CSS methods
 
