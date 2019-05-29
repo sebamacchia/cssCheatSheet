@@ -13,7 +13,9 @@ The most complete and compact CSS cheat sheet in the entire world!
 7. [Box](#Box)
 8. [Text](#Text)
 9. [Positioning](#Positioning)
-10. [Dimensions])(#Dimensions)
+10. [Dimensions](#Dimensions)
+11. [BACKGROUNDS](#BACKGROUNDS)
+11. [UI](#UI)
 
 ## Adding CSS methods
 
@@ -353,6 +355,10 @@ Set type of quotation marks
    768-480     - tablet 
    480-less    - phone landscape & smaller
 --------------------------------------------*/
+
+max-width ---> is “If [device width] is less than or equal to 600px, then do {…}”
+min-width ---> “If [device width] is greater than or equal to 600px, then do {…}”
+
 
 @media all and (min-width: 1024px) and (max-width: 1280px) { }
  
