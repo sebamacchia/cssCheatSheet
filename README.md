@@ -75,6 +75,12 @@ tag#id /*Tag with id ‘id’*/
 ## Pseudo-selectors
 
 ```css
+Pseudo-elements are used to style a specific part of an element.
+They start with a double colon ::.
+::before and ::after are probably the most used pseudo-elements. They are used to add content before or after an element, like icons for example.
+```
+
+```css
 :active /*Adds style to active element*/
 :after /*Adds content after element*/
 :before /*Ads content before element*/
